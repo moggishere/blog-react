@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+/* @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 
 :root {
     --ff-main: Roboto, sans-serif;
@@ -7,14 +7,23 @@
     --color-body: #000000;
     --color-p1: #f3f2c0;
     --color-p2: #a2e5ff;
+} */
+
+.caixa{
+    background-color: #3F51B5;
 }
 
-.title {
-    font-family: var(--ff-main);
-    background-color: var(--color-body);
-    color: var(--color-strong);
+.titulo{
+   color: white !important;
+   font-weight: bold !important;
 }
 
-.imagem {
-    width: 50vw;
+.botao{
+    border-color: white !important;
+    background-color: #3F51B5;
+    color: white !important;
+}
+
+.postagens{
+    background-color: white;
 }
